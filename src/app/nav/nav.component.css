@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+
+}
+
+ul {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    box-shadow: 0cap 0cap 0.4cap black;
+}
+
+li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: grey;   
+    transition: all 1s ease-in-out;
+}
+
+a:hover {
+    color: black;
+}

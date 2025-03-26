@@ -1,0 +1,15 @@
+
+<div class="cards-container shadow" >
+    <div class="card-body">
+        <h5>{{project.name}}</h5>
+        <p class="card-text">{{project.summary}}</p>
+        <button class="btn btn-primary" (click)="OpenProjectModal()">View more</button>
+    </div>
+    <div class="card-footer">
+        <div class="card-footer-body">
+        <div *ngFor="let tag of project.tags">
+            <div class="tag" [style.background-color]="tag.color">{{tag}}</div>
+        </div>
+        </div>
+    </div>
+</div>
