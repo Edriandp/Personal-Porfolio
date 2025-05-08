@@ -42,6 +42,8 @@ export class PortfolioComponent implements OnInit {
     }
       else {
         this.filtering = false;
+        this.Reset();
+        return;
       }
     
     let filtertags: Tag[] = [];
@@ -56,16 +58,16 @@ export class PortfolioComponent implements OnInit {
     if (this.java) {
       filtertags.push(Tag.JAVA);
     }
-    if (this.angular) {
+    if (this.javascript) {
       filtertags.push(Tag.JAVASCRIPT);
     }
-    if (this.angular) {
+    if (this.kotlin) {
       filtertags.push(Tag.KOTLIN);
     }
-    if (this.angular) {
+    if (this.python) {
       filtertags.push(Tag.PYTHON);
     }
-    if (this.angular) {
+    if (this.Spring) {
       filtertags.push(Tag.SPRING);
     }
 

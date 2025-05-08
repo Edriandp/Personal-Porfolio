@@ -8,7 +8,9 @@ export class Tag {
     static readonly REACT = new Tag ('React', '#3a86ff');
     static readonly PYTHON = new Tag ('Python', '#3a5a40');
     static readonly SPRING = new Tag ('Spring', '#b5e48c');
-
+    static readonly JAVAFX = new Tag ('JavaFX', '#d7903b');
+    static readonly BOOTSTRAP = new Tag ('BootStrap', '#ff5733');
+    static readonly HIBERNATE = new Tag ('Hibernate', '#d7ce3b');  
     private constructor(private readonly key: string, public readonly color: string) {
 
     }
