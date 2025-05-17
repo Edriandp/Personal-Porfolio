@@ -21,8 +21,8 @@ constructor(private titleService: Title, private renderer: Renderer2){
  DownloadFile(){
     const link = this.renderer.createElement('a');
     link.setAttribute('target', '_blank');
-    link.setAttribute('href', '../../assets/resume.pdf');
-    link.setAttribute('download', 'resume.pdf');
+    link.setAttribute('href', '../../assets/Edrian Díaz - CV.pdf');
+    link.setAttribute('download', 'Edrian Díaz - CV.pdf');
     link.click();
     link.remove();
  }
